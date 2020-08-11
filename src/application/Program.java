@@ -20,6 +20,8 @@ public class Program {
 		Scanner sc = new Scanner(System.in);
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		
+		System.out.println("--------------WELCOME--------------");
+		
 		System.out.println("Enter client data:");
 		System.out.print("Name: ");
 			String clientName = sc.nextLine();
